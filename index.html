@@ -1,0 +1,167 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Plastic2048</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <!-- <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui"> -->
+  <!-- <meta property="og:title" content="Wow! Such Doge Game!" /> -->
+  <meta property="og:url" content="http://plastic2048.com/" />
+  <meta property="og:description" content="play and learn about our impact on the environment" />
+  <!-- <meta property="og:image" content="http://doge2048.com/meta/doge-600.png"> -->
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+</head>
+<body>
+
+  <div class="container">
+    <div class="heading">
+      <h1 class="title"><span style="color:#D05A57">Plastic</span>2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+
+      <div class="subtitle">
+        <h3>Plastic2048 was created to visualize how the use of plastic lead to the endangerment of marine life.</h3>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="doge-says">
+        <p></p>
+      </div>
+      <div class="info">
+        <h3><span style="color:#D05A57">Plastic</span>2048</h3>
+        <p>Our oceans and marine life are choking on plastic. According to <a href="https://plasticoceans.org/the-facts/" target="_blank">Plastic Oceans,</a> more than 8 million tons of plastic enters our oceans every year.
+          Studies have shown that 50% of sea turtles worldwide have consumed plastic. Many seabirds were also found dead with their stomachs full of plastic waste.</p>
+        <p>There are many ways that plastics can enter our oceans. This game only shows one of them: how plastic bags travel from our homes to the ocean. Oher ways that put many marine lives at risk include plastic litter, the use of
+          products that contain microbeads (tiny balls of plastic), and industrial leakage.
+        </p>
+        <p>Though, many of us are fully aware of the negative effects of plastic, we don't always think about it when we make our everyday decisions. And that is the main motivation for this project––to help draw that
+          connection between our actions and their impacts so we can learn to be more consious about the world around us.
+        </p>
+
+
+
+      </div>
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Play again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+    <p class="game-explanation">Use your arrow keys or swipe to combine similar images to see the impact.</p>
+
+    <div class="info-container">
+      <a class="show-info">INFO</a>
+    </div>
+
+    <div class="images-key">
+      <h2>Images Key</h2>
+
+      <img src="images/212/plastic_bag.jpg" width ="200">
+      <h4> =<span class="spacing">2</span></h4>
+      <h5>We mainly use a plastic bag to carry our grocery.</h5>
+
+      <img src="images/212/plastic_bags.jpg" width ="200">
+      <h4> =<span class="spacing">4</span></h4>
+      <h5>Sometimes, we need multiple bags.</h5>
+
+      <img src="images/212/trash_bin.jpg" width ="200">
+      <h4> =<span class="spacing">8</span></h4>
+      <h5>Then, we throw our plastic bags in the trash because we can't put them in the recycling bin.</h5>
+
+      <img src="images/212/garbage_truck.jpg" width ="200">
+      <h4> =<span class="spacing">16</span></h4>
+      <h5>A garbage truck would come to collect the trash.</h5>
+
+      <img src="images/212/landfill.jpg" width ="200">
+      <h4> =<span class="spacing">32</span></h4>
+      <h5>The trash will then be dumped in a landfill.</h5>
+
+      <img src="images/212/plastic_flying.jpg" width ="200">
+      <h4> =<span class="spacing">64</span></h4>
+      <h5>However, even when it's in landfills, it can easily be carried away by wind and rain due to its light weight.</h5>
+
+      <img src="images/212/plastic_in_river.jpg" width ="200">
+      <h4> =<span class="spacing">128</span></h4>
+      <h5>They can, then, end up in our drainage networks or rivers.</h5>
+
+      <img src="images/212/plastic_in_ocean.jpg" width ="200">
+      <h4> =<span class="spacing">256</span></h4>
+      <h5>Eventually, they will flow into t\our oceans.</h5>
+
+      <img src="images/212/plastic_p1.jpg" width ="200">
+      <h4> =<span class="spacing">512</span></h4>
+      <h5>Once they are in the ocean, these plastic items can trap marine life. They can be extremely harmful to big animals and lethal to smaller ones.</h5>
+
+      <img src="images/212/plastic_p2.jpg" width ="200">
+      <h4> =<span class="spacing">1024</span></h4>
+      <h5>Plastic comsuption is one of the most life-threatening issues for marine animals. The plastic would take up space in their stomach, making them think that they are full. But since they don't actually receive any nutrients, this could lead to starvation and death.</h5>
+
+
+      <img src="images/212/plastic_p3.jpg" width ="200">
+      <h4> =<span class="spacing">2048</span></h4>
+      <h5>Lastly, not only do plastic pollution affect life in water, it affects life on land as well. According to <a target="_blank" href="https://www.pewtrusts.org/en/research-and-analysis/articles/2018/09/24/plastic-pollution-affects-sea-life-throughout-the-ocean">PEW</a>, "plastic waste kills up to a million seabirds a year." This is a striking number and sadly, it won't be decreasing any time soon without our combined effort.</h5>
+
+    </div>
+
+  </div>
+  <div class="footer">
+    <h6> Plastic2048 is created by Monineath Heng. </h6>
+    <h6 id="closer-top"> Inspired by <a href="https://play2048.co/" target="_blank">2048</a> created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a></h6>
+  </div>
+
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+
+
+</body>
+</html>
